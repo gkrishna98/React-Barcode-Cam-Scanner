@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-      <BarcodeScannerComponent
+      <BarcodeScanner
         width={500}
         height={500}
         onUpdate={(err, result) => {
