@@ -3,7 +3,7 @@
 This is a basic React component developed in Javascript, designed to offer a webcam-based barcode scanner using the @zxing/library. Compatible with both computers and mobile devices (iOS 11 and newer, and Android phones).
 
 # Usage in React:
-
+```
 import React from 'react';
 import BarcodeScanner from "react-barcode-cam-scanner";
 
@@ -25,7 +25,7 @@ function App() {
     </>
   )
 }
-
+```
 export default App;
 
 
